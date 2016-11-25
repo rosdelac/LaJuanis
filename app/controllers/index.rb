@@ -42,7 +42,7 @@ get '/order/finalizar/:order_id' do
   @order.save
   @pendingorders   = Order.where(status: false)
   @completedorders = Order.where(status: true)
-  erb :adminpanel
+  redirect '/adminpanel'
 end
 
 get '/order/eliminar/:order_id' do
