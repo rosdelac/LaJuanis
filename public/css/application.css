@@ -5,7 +5,7 @@
   padding: 0px 20px 20px 20px;
   /*border: 1px dotted black;*/
   margin-top: 50px;
-  background: #FCFFFB;
+  background: white;
 }
 th {
   text-align: left;
@@ -13,6 +13,20 @@ th {
 
 * {
   font-family: Verdana, sans-serif;
+}
+
+.izquierda {
+  float: left;
+  width: 49%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.derecha {
+  float: right;
+  width: 49%;
+  height: 250px;
+  margin-bottom: 20px;
 }
 
 #navbar {
